@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Oleo+Script:wght@400;700&display=swap');
+
+:root {
+    --custom-nav: #a16861;
+    --custom-text: #b7837c;
+    --custom-fond: #b8827b;
+    --custom-brown: #d0aaa5;
+    --navbar-hover: #d0aaa5;
+    --custom-navbar: #e0c5c1;
+    --navbar-back: #F4FFC3;
+    --custom-white: #FFFFFF;
+}
+
+.custom-nav {
+    background-color: var(--custom-nav) !important;
+}
+
+.custom-fond {
+    background-color: var(--custom-fond);
+}
+
+.custom-fontt {
+    font-family: "Bad Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.custom-font1{
+    font-size: 20px;
+    font-family: "Oleo Script", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.custom-font2{
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.custom-test {
+    background-color: var(--custom-gray);
+}
+
+.custom-back {
+    background-color: var(--navbar-back) !important;
+}
+
+.custom-colorv {
+    background-color: var(--custom-gray) !important;
+}
+
+.custom-colorc {
+    background-color: var(--custom-brown) !important;
+}
+
+.custom-text {
+    color: var(--custom-text);
+}
+
+
+.custom-card-header {
+    background-color: var(--custom-brown);
+
+}
+
+.custom-card-header-title {
+    color: var(--custom-white);
+
+}
+
+.custom-item:hover {
+    background-color: var(--navbar-hover) !important;
+    color: white !important;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out !important;
+}
+
+.custom-margin {
+    margin-right: 7rem !important;
+}
+
+.custom-box {
+    box-shadow: #a16861 !important;
+}
+
+.custom-hiper {
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.border-dashed {
+    border-bottom: 4px dotted #a16861;
+    border-top: 4px dotted #a16861;
+}
